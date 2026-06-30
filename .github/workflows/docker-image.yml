@@ -33,7 +33,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-         docker push jopa27/dockergraph:0.0.2 .
+         docker push jopa27/dockergraph:0.0.2
 
       
       

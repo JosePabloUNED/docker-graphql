@@ -29,11 +29,11 @@ jobs:
         
     - name: Build Docker Image
       run: |
-         docker build -t jopa27/dockergraphql:0.0.2 .
+         docker build -t jopa27/docker-graphql:0.0.2 .
 
     - name: Build Docker Image
       run: |
-         docker push jopa27/dockergraphql:0.0.2
+         docker push jopa27/docker-graphql:0.0.2
 
       
       
